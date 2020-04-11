@@ -1,0 +1,38 @@
+* {
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+body {
+    display: flex;
+    /* flex-direction: row;
+    flex-flow: wrap; */
+    flex-flow: row wrap;
+    justify-content: space-around; /* flex-start a esquerda não é necessariamente a "esquerda", isso é o "inicio" mesmo, pois se ele for o column o flex start será o topo. Ele se relaciona com a propriedade que está sendo aplicada */
+    height: 100vh;
+    align-items: flex-start;
+    height: 300vh;
+     
+}
+header,footer{
+    border: 1px dashed green;
+    background-color: rgba(0,255,0,0.3);
+    width: 10%;
+    height: 10vh;
+   
+}
+    
+aside {
+    border: 1px dashed red;
+    background-color: rgba(255,0,0,0.3);
+    width: 10%;
+    height: 10vh;
+}
+
+main {
+    border: 1px dashed blue;
+    background-color: rgba(0,0,255,0.3);
+    width: 10%;
+    height: 10vh;
+}
